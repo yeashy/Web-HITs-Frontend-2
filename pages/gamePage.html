@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/gamePage.css">
+    <script src="../scripts/pageScript.js" defer></script>
+    <script src="../scripts/game.js" defer></script>
+    <title>PokemonSnake!</title>
+</head>
+
+<body>
+    <div id="content">
+        <header class="text-holder" id="header">
+            <p class="just-text">Frontend 1.2</p>
+        </header>
+
+        <div id="game-holder">
+            <div id="background"></div>
+            <div id="UI">
+                <div id="score" class="points">
+                    <div class="points-top">
+                        <p class="points-text">Score</p>
+                    </div>
+                    <div class="numbers">
+                        <p class="numbers-text" id="score-p">0</p>
+                    </div>
+                </div>
+                <div id="highscore" class="points">
+                    <div class="points-top">
+                        <p class="points-text">Highscore</p>
+                    </div>
+                    <div class="numbers">
+                        <p class="numbers-text" id="highscore-p">0</p>
+                    </div>
+                </div>
+                <div id="controls">
+                    <div class="btn-div"><button id="up-btn" class="btn">&#8593</button></div>
+                    <div class="btn-div">
+                        <button id="left-btn" class="btn">&#8592</button>
+                        <button id="right-btn" class="btn">&#8594</button>
+                    </div>
+                    <div class="btn-div"><button id="down-btn" class="btn">&#8595</button></div>
+                </div>
+                <div id="speed">
+                    <div id="speed-text">
+                        <p id="speed-p">Speed:</p>
+                    </div>
+                    <div id="cps"><p id="current-speed">0 cps</p></div>
+                </div>
+                <div id="start-div">
+                    <button id="start-btn" onclick="initGame()">Start!</button>
+                </div>
+            </div>
+            <div id="game-process">
+                <canvas id="canvas"></canvas>
+            </div>
+        </div>
+    </div>
+    <footer class="text-holder" id="footer">
+        <p class="just-text">Frontend 1.2</p>
+    </footer>
+    <img src="../img/pokemons/001.png" alt="" id="img1">
+    <img src="../img/pokemons/002.png" alt="" id="img2">
+    <img src="../img/pokemons/003.png" alt="" id="img3">
+    <img src="../img/pokemons/004.png" alt="" id="img4">
+    <img src="../img/pokemons/005.png" alt="" id="img5">
+    <img src="../img/pokemons/006.png" alt="" id="img6">
+    <img src="../img/pokemons/007.png" alt="" id="img7">
+    <img src="../img/pokemons/008.png" alt="" id="img8">
+    <img src="../img/pokemons/009.png" alt="" id="img9">
+    <img src="../img/pokemons/010.png" alt="" id="img10">
+    <img src="../img/pokemons/011.png" alt="" id="img11">
+    <img src="../img/pokemons/012.png" alt="" id="img12">
+    <img src="../img/pokemons/013.png" alt="" id="img13">
+    <img src="../img/ash.png" alt="" id="ash">
+</body>
+
+</html>
